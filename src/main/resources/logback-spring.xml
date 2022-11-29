@@ -1,0 +1,41 @@
+<configuration scan="true" scanPeriod="30 seconds">
+    <!--xml 에서 사용할 프로퍼티(변수) 설정 -->
+    <property name="LOGS_PATH" value="./logs"/>
+
+    <!-- console appender 사용 -->
+    <appender name="LOGBACK_CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- 출력 패턴 설정 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}[%highlight(%-5level)][%logger{15}] : %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- rolling appender 사용 -->
+    <appender name="LOGBACK_ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 출력 패턴 설정 -->
+        <encoder>
+            <pattern>[%-5level] %d{HH:mm:ss.SSS} %logger{36} - %msg%n</pattern>
+        </encoder>
+        <!-- 로그파일패스 및 이름 설정 -->
+        <file>${LOGS_PATH}/logback_test.log</file>
+        <!-- 로그롤링파일설정 : 로컬 시간 기준 일자가 변경된 경우(오전 12시) 생성된 로그 파일을 설정된 형태로 보관하고 새로운 로그파일 생성 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--로그롤링파일패스 및 파일 패턴 설정 -->
+            <fileNamePattern>${LOGS_PATH}/logback_test-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 90일이 지난 파일은 삭제 처리 -->
+            <maxHistory>90</maxHistory>
+            <!-- 파일 사이즈 및 롤링 파일 생성 설정 -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- 파일 사이즈 -->
+                <maxFileSize>500MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="LOGBACK_CONSOLE"/>
+        <appender-ref ref="LOGBACK_ROLLING"/>
+    </root>
+
+</configuration>

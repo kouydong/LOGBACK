@@ -1,0 +1,50 @@
+[INFO ] 14:57:43.961 c.example.logback.LogbackApplication - Starting LogbackApplication using Java 17.0.2 with PID 20020 (C:\git-repository\logback\build\classes\java\main started by kouydong in C:\git-repository\logback)
+[INFO ] 14:57:43.976 c.example.logback.LogbackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:57:44.639 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 14:57:44.639 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:57:44.639 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:57:44.639 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[INFO ] 14:57:44.701 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:57:44.701 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 692 ms
+[INFO ] 14:57:44.951 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:57:44.967 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 14:57:44.967 c.example.logback.LogbackApplication - Started LogbackApplication in 1.39 seconds (process running for 1.63)
+[INFO ] 14:57:44.967 c.example.logback.LogbackApplication - 스프링 어플리케이션 시작
+[INFO ] 15:00:14.413 c.example.logback.LogbackApplication - Starting LogbackApplication using Java 17.0.2 with PID 2348 (C:\git-repository\logback\build\classes\java\main started by kouydong in C:\git-repository\logback)
+[INFO ] 15:00:14.413 c.example.logback.LogbackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:00:15.085 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:00:15.085 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:00:15.100 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:00:15.100 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[INFO ] 15:00:15.163 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:00:15.163 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 702 ms
+[INFO ] 15:00:15.397 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:00:15.413 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:00:15.413 c.example.logback.LogbackApplication - Started LogbackApplication in 1.39 seconds (process running for 1.627)
+[INFO ] 15:00:15.413 c.example.logback.LogbackApplication - 스프링 어플리케이션 시작
+[INFO ] 15:01:34.837 c.example.logback.LogbackApplication - Starting LogbackApplication using Java 17.0.2 with PID 24348 (C:\git-repository\logback\build\classes\java\main started by kouydong in C:\git-repository\logback)
+[INFO ] 15:01:34.837 c.example.logback.LogbackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:01:35.496 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:01:35.512 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:01:35.512 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:01:35.512 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[INFO ] 15:01:35.574 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:01:35.574 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 705 ms
+[INFO ] 15:01:35.813 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:01:35.828 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:01:35.828 c.example.logback.LogbackApplication - Started LogbackApplication in 1.377 seconds (process running for 1.603)
+[INFO ] 15:01:35.828 c.example.logback.LogbackApplication - 스프링 어플리케이션 시작
+[INFO ] 15:25:27.372 c.example.logback.LogbackApplication - Starting LogbackApplication using Java 17.0.2 with PID 24388 (C:\git-repository\logback\build\classes\java\main started by kouydong in C:\git-repository\logback)
+[INFO ] 15:25:27.372 c.example.logback.LogbackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:25:28.051 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:25:28.051 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:25:28.051 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:25:28.051 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[INFO ] 15:25:28.129 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:25:28.129 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 714 ms
+[INFO ] 15:25:28.364 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:25:28.379 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:25:28.379 c.example.logback.LogbackApplication - Started LogbackApplication in 1.402 seconds (process running for 1.631)
+[INFO ] 15:25:28.379 c.example.logback.LogbackApplication - 스프링 어플리케이션 시작
+[WARN ] 15:25:28.379 c.example.logback.LogbackApplication - 스프링 어플리케이션 시작
+[ERROR] 15:25:28.379 c.example.logback.LogbackApplication - 스프링 어플리케이션 시작
